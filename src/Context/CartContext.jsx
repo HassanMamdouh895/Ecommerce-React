@@ -78,7 +78,7 @@ async function checkOut(shippingAddress) {
 
      
     
-    return  await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cardId}?url=https://hassanmamdouh895.github.io/Ecommerce-React`,{shippingAddress},{headers}).then((response)=>{
+    return  await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cardId}?url=https://Ecommerce-React/`,{shippingAddress},{headers}).then((response)=>{
         console.log(response.data.session.url)
         window.location.href=response.data.session.url
 
