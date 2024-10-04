@@ -94,7 +94,7 @@ function App() {
           ),
         },
         {
-          path: "checkout",
+          path: "/Ecommerce-React/checkout",
           element: (
             <ProtectedRoute>
               <CheckOut />
