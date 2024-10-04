@@ -23,7 +23,6 @@ export default function Signup() {
       navigate('/login');
       // setUserData(data.token)
       setLoading(false);
-      localStorage.removeItem("userToken")
 
     } catch (err) {
       setApiError(err.response.data.message);
