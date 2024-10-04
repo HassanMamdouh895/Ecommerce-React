@@ -20,7 +20,7 @@ export default function Signup() {
       
       console.log(data);
       localStorage.setItem("userToken", data.token);
-      navigate('/login');
+      navigate('/Ecommerce-React/login');
       // setUserData(data.token)
       setLoading(false);
 
