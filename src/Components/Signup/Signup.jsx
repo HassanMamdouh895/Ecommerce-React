@@ -23,6 +23,7 @@ export default function Signup() {
       navigate('/Ecommerce-React/login');
       // setUserData(data.token)
       setLoading(false);
+      localStorage.removeItem("userToken")
 
     } catch (err) {
       setApiError(err.response.data.message);
